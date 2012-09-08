@@ -53,8 +53,8 @@ INSTALLED_APPS = [
 
     # Third-party apps, patches, fixes
     'commonware.response.cookies',
-    'djcelery',
-    'django_nose',
+    #'djcelery',
+    #'django_nose',
     'debug_toolbar',
     #'debug_toolbar_user_panel',
     #'memcache_toolbar',

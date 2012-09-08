@@ -30,13 +30,13 @@ django-debug-toolbar
 #-e git://github.com/ross/memcache-debug-panel#egg=memcache_toolbar-dev
 
 # Migrations
-South
+south
 
 # Various tidbits
 commonware
 -e git://github.com/mozilla/nuggets.git#egg=nuggets
 https://github.com/jessemiller/HamlPy/tarball/master
-grappelli
+django_grappelli
 django_compressor
 
 bpython
