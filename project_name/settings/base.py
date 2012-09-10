@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.syndication',
     'django.contrib.staticfiles',
+    'compressor',
 
     # Third-party apps, patches, fixes
     'commonware.response.cookies',
@@ -114,6 +115,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_ROOT, 'static-sass'),
 )
 
 # If you set this to False, Django will make some optimizations so as not
@@ -132,6 +134,7 @@ USE_TZ = True
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder',
 )
 
 MIDDLEWARE_CLASSES = [
