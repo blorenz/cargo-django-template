@@ -203,6 +203,10 @@ DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.logger.LoggingPanel',
 )
 
+COMPRESS_CSS_FILTERS = [
+    'compressor.filters.compass.CompassFilter',
+    ]
+
 # Specify a model to use for user profiles, if desired.
 #AUTH_PROFILE_MODULE = '{{ project_name }}.accounts.UserProfile'
 
