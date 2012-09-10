@@ -7,6 +7,6 @@ cp {{project_name}}/settings/local-dist.py {{project_name}}/settings/local.py
 compass create -r less foo --using less
 mv foo/sass sass
 rm -rf foo
-mv sass/{{project_name}}.scss app.scss
+mv sass/{{project_name}}.scss sass/app.scss
 chmod 755 manage.py
 

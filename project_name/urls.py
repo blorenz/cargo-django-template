@@ -6,8 +6,8 @@ from django.contrib import admin
 admin.autodiscover()
 
 # django-session-csrf monkeypatcher
-import session_csrf
-session_csrf.monkeypatch()
+#import session_csrf
+#session_csrf.monkeypatch()
 
 
 def bad(request):
