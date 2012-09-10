@@ -9,4 +9,5 @@ mv foo/sass sass
 rm -rf foo
 mv sass/{{project_name}}.scss sass/app.scss
 chmod 755 manage.py
+chmod 755 watch.py
 
