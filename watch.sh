@@ -1,1 +1,1 @@
-compass watch &
+screen compass watch . &
