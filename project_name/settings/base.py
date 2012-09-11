@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'compressor',
 
     # Third-party apps, patches, fixes
-    'commonware.response.cookies',
+    #'commonware.response.cookies',
     #'djcelery',
     #'django_nose',
     'debug_toolbar',
