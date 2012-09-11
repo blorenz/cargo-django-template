@@ -5,10 +5,10 @@
 Django>=1.4
 
 # Templates
-Markdown
+#Markdown
 
 # Security
-bleach
+#bleach
 #cef
 
 # Logging
@@ -20,9 +20,6 @@ bleach
 #Babel
 #-e git://github.com/clouserw/tower.git#egg=tower
 
-# Caching
-python-memcached
-
 # Admin
 django-debug-toolbar
 # There are useful panels for debug-toolbar, but have not quite been updated yet for 1.4
@@ -33,8 +30,8 @@ django-debug-toolbar
 south
 
 # Various tidbits
-commonware
--e git://github.com/mozilla/nuggets.git#egg=nuggets
+#commonware
+#-e git://github.com/mozilla/nuggets.git#egg=nuggets
 https://github.com/jessemiller/HamlPy/tarball/master
 django_grappelli
 django_compressor
