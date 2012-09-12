@@ -1,1 +1,1 @@
-did_it_work() -> x = true
+did_it_work = (x)-> x = true

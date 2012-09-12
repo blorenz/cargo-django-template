@@ -210,6 +210,13 @@ COMPRESS_CSS_FILTERS = [
     'compressor.filters.compass.CompassFilter',
     ]
 
+COMPRESS_PRECOMPILERS = (
+    ('text/coffeescript', 'coffee --compile --stdio'),
+    ('text/less', 'lessc {infile} {outfile}'),
+    ('text/x-sass', 'sass {infile} {outfile}'),
+    ('text/x-scss', 'sass --scss {infile} {outfile}'),
+)
+
 # Specify a model to use for user profiles, if desired.
 #AUTH_PROFILE_MODULE = '{{ project_name }}.accounts.UserProfile'
 
